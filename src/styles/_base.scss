@@ -1,0 +1,27 @@
+body {
+	background: #FAFBFF;
+	color: #000;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1;
+	
+	* {
+		box-sizing: border-box;
+	}
+}
+
+.page {
+	display: flex;
+	min-height: 100vh;
+	height: 100%;
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	gap: 70px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.page {
+		flex-direction: column;
+		gap: 30px;
+	}
+}
